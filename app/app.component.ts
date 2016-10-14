@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChartsModule } from '@progress/kendo-angular-charts';
 
 @Component({
     selector: 'my-app',
@@ -7,8 +8,13 @@ import { Component } from '@angular/core';
     <button
     kendoButton
     (click)="onButtonClick()"
-    [primary]=true
-    >My Kendo UI Button</button>
+    [primary]=true>My Kendo UI Button</button>
+    <kendo-chart [title]="chartTitle" [series]="chartSeries">
+      <kendo-chart-series>
+        <kendo-chart-series-item [data]="[5, 3, 2, 1]">
+        </kendo-chart-series-item>
+      </kendo-chart-series>
+    </kendo-chart>
     `,
 
 })
