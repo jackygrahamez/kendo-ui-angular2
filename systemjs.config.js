@@ -33,6 +33,7 @@
       "@progress/kendo-angular-intl": "npm:@progress/kendo-angular-intl",
       "@progress/kendo-charts": "npm:@progress/kendo-charts",
       "@progress/kendo-drawing": "npm:@progress/kendo-drawing",
+      "@progress/kendo-angular-dropdowns": "npm:@progress/kendo-angular-dropdowns",
       "@telerik/kendo-draggable": "npm:@telerik/kendo-draggable",
       "@telerik/kendo-intl": "npm:@telerik/kendo-intl",
       "@telerik/kendo-theme-default": "npm:@telerik/kendo-theme-default"
@@ -86,6 +87,10 @@
         "main": "./dist/npm/js/main.js"
       },
       "npm:@telerik/kendo-draggable": {
+        "defaultExtension": "js",
+        "main": "./dist/npm/js/main.js"
+      },
+      "npm:@telerik/kendo-angular-dropdowns": {
         "defaultExtension": "js",
         "main": "./dist/npm/js/main.js"
       },
